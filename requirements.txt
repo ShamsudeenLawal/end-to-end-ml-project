@@ -3,4 +3,4 @@ seaborn
 pandas
 matplotlib
 scikit-learn
-# -e .
+-e .
