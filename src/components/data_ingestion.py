@@ -54,8 +54,9 @@ class DataIngestion:
         
         except Exception as error:
             raise CustomException(error, sys)
-        
-if __name__=="__main__":
-    ingestion = DataIngestion()
-    train_path, test_path = ingestion.initiate_ingestion()
-    print(train_path, test_path)
+
+# # usage      
+# if __name__=="__main__":
+#     ingestion = DataIngestion()
+#     train_path, test_path = ingestion.initiate_ingestion()
+#     print(train_path, test_path)
