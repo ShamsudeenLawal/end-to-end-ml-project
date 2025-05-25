@@ -3,4 +3,5 @@ seaborn
 pandas
 matplotlib
 scikit-learn
+flask
 -e .
